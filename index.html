@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-2</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Vladimir Putin</h2>
+            <p>Putin was born on 7 October 1952 in Leningrad, Soviet Union (now Saint Petersburg, Russia), the
+                youngest of three children of Vladimir Spiridonovich Putin (1911–1999) and Maria Ivanovna Putina (née
+                Shelomova; 1911–1998). His grandfather, Spiridon Putin, was a personal cook to Vladimir Lenin and Joseph
+                Stalin.</p>
+        </div>
+        <div class="toggleBtn">
+        </div>
+    </div>
+    <script>
+        let toggleBtn = document.querySelector(".toggleBtn");
+        let container = document.querySelector(".container");
+        toggleBtn.onclick = function () {
+            container.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
